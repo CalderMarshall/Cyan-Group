@@ -41,19 +41,20 @@ public class Main {
 //        BufferedReader br = new BufferedReader(r);
         System.out.println("Enter String");
 //        String name = br.readLine();
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("output" + name);
-        String [] arr = name.split("");
 
-        stringMethods.crawlingFriday(arr);
+//        Scanner sc = new Scanner(System.in);
+//        String name = sc.nextLine();
+//        System.out.println("output" + name);
+//        String [] arr = name.split("");
+
+        //stringMethods.crawlingFriday(arr);
 
         // 6. Reversing a String
         String str8 = "Today is Tuesday and tomorrow is the Wednesday";
         stringMethods.reverseString(str8);
 
         // 7. Leetspeak
-       StringMethods.leetSpeak("time is money");
+       StringMethods.leetSpeak("leet speak");
 
 
 
